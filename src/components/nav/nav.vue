@@ -84,7 +84,21 @@ const routerLinks = ref([
 
 
         ]
+    },
+
+     {
+        path: '/lde',
+        name: '프로젝트 관리',
+        children: [
+            { path: 'lde009', name: '프로젝트' },
+            { path: 'lde010', name: '회사' },
+            { path: 'lde011', name: '설문대상' },
+            { path: 'lde012', name: '회원' },
+        ]
     }
+
+
+
 ])
 
 const toMain = () => {
